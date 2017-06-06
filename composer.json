@@ -1,0 +1,21 @@
+{
+    "name": "lernpad/symfony-framework-doctrine-edition",
+    "license": "MIT",
+    "type": "project",
+    "description": "The \"Symfony Doctrine only Edition\" distribution",
+    "autoload": {
+        "psr-4": { "": "src/" },
+	"classmap": [ "app/AppKernel.php", "app/AppCache.php" ]
+    },
+    "autoload-dev": {
+        "psr-4": { "Tests\\": "tests/" }
+    },
+    "require": {
+        "doctrine/doctrine-bundle": "^1.6",
+        "symfony/yaml": "^3.3",
+        "doctrine/orm": "^2.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    }
+}
